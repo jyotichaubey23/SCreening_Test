@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	font-family: Poppins-Regular;
+}
+
+.topnav {
+	background-color: white;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	overflow: auto;
+	margin-top: 0;
+	margin-left: 0;
+	z-index: 1;
+}
+
+.topnav a {
+	color: #de1738;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topnav a:hover {
+	background-color: #de1738;
+	color: white;
+}
+
+.topnav a.active {
+	background-color: white;
+	color: white;
+}
